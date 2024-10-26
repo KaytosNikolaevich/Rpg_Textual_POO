@@ -93,6 +93,23 @@ public class Atributo {
                 return 0;
         }
     }
+ // Método getModificador
+    public int getModificador(String tipoAtributo) {
+        switch (tipoAtributo.toLowerCase()) {
+            case "forca":
+                return calcularModificador(forca);
+            case "destreza":
+                return calcularModificador(destreza);
+            case "potencia":
+                return calcularModificador(potencia);
+            case "resistencia":
+                return calcularModificador(resistencia);
+            case "persuasao":
+                return calcularModificador(persuasao);
+            default:
+                return 0; // Retorna 0 se o tipo de atributo não for encontrado
+        }
+    }
 
     // Getters e Setters para cada atributo
     public int getForca() {
