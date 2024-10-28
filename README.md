@@ -16,6 +16,32 @@ Gênesis Mágica é um RPG ambientado no mundo de Avalon, inspirado na cultura d
 
 [Repositório no GitHub](https://github.com/KaytosNikolaevich/Rpg_Textual_POO.git)
 
+##Aplicação de Conceitos solicitados>
+Aplicação de Encapsulamento:
+
+Atributos das classes são privados e acessados através de métodos públicos (getters e setters).
+Exemplo: getNome(), setIdade(int idade).
+Aplicação de Herança:
+
+CultivoQi e CultivoElemento herdam de Especializacao.
+Exemplo: public class CultivoQi extends Especializacao.
+Aplicação de Polimorfismo:
+
+Métodos em Habilidade que são implementados de forma diferente nas subclasses.
+Exemplo: public void usar() em BolaDeFogo e GalopeDoPegaso.
+Aplicação de Classe Abstrata e/ou Interface:
+
+Habilidade pode ser uma classe abstrata, exigindo implementações específicas nas subclasses.
+Exemplo: Métodos abstratos definidos em Habilidade.
+Aplicação de Composição e/ou Agregação:
+
+A classe Personagem contém uma instância de Especializacao, mostrando uma relação de composição.
+Exemplo: private Especializacao especializacao.
+Aplicação de Tratamento de Exceções:
+
+Uso de try-catch nas operações que podem gerar exceções, como divisões ou acessos a elementos de uma lista.
+Exemplo: Tratamento de exceções em Combate.
+
 ## Como Executar o Código
 
 Para executar o jogo, siga os passos abaixo:
@@ -42,28 +68,3 @@ Combate com Criaturas: Os jogadores enfrentam inimigos como o Wendigo, com resul
 
 
 
-Aplicação de Conceitos solicitados>
-Aplicação de Encapsulamento:
-
-Atributos das classes são privados e acessados através de métodos públicos (getters e setters).
-Exemplo: getNome(), setIdade(int idade).
-Aplicação de Herança:
-
-CultivoQi e CultivoElemento herdam de Especializacao.
-Exemplo: public class CultivoQi extends Especializacao.
-Aplicação de Polimorfismo:
-
-Métodos em Habilidade que são implementados de forma diferente nas subclasses.
-Exemplo: public void usar() em BolaDeFogo e GalopeDoPegaso.
-Aplicação de Classe Abstrata e/ou Interface:
-
-Habilidade pode ser uma classe abstrata, exigindo implementações específicas nas subclasses.
-Exemplo: Métodos abstratos definidos em Habilidade.
-Aplicação de Composição e/ou Agregação:
-
-A classe Personagem contém uma instância de Especializacao, mostrando uma relação de composição.
-Exemplo: private Especializacao especializacao.
-Aplicação de Tratamento de Exceções:
-
-Uso de try-catch nas operações que podem gerar exceções, como divisões ou acessos a elementos de uma lista.
-Exemplo: Tratamento de exceções em Combate.
